@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Bison&amp;Flex Files">
+      <UniqueIdentifier>{5e672e44-19d0-4aa9-9173-3d9824e482f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bison&amp;Flex Files\Header Files">
+      <UniqueIdentifier>{0793aad9-4327-475a-b6cc-b332e8cf158a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bison&amp;Flex Files\Source Files">
+      <UniqueIdentifier>{c8f9755a-2426-490b-bc7a-ad8c911e07b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Bison&amp;Flex Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lex.yy.cc">
+      <Filter>Bison&amp;Flex Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.tab.cc">
+      <Filter>Bison&amp;Flex Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="parser.yy">
+      <Filter>Bison&amp;Flex Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lexer.ll">
+      <Filter>Bison&amp;Flex Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lexer.h">
+      <Filter>Bison&amp;Flex Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Bison&amp;Flex Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="location.hh">
+      <Filter>Bison&amp;Flex Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.tab.hh">
+      <Filter>Bison&amp;Flex Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="position.hh">
+      <Filter>Bison&amp;Flex Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.hh">
+      <Filter>Bison&amp;Flex Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="valuetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

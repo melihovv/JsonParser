@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonParser", "JsonParser\JsonParser.vcxproj", "{2BBF02D5-D5DC-48D2-86D9-F2AE56AD3292}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestJsonParser", "TestJsonParser\TestJsonParser.vcxproj", "{BF0041C9-F0BB-4088-94F0-2C4636B972F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2BBF02D5-D5DC-48D2-86D9-F2AE56AD3292} = {2BBF02D5-D5DC-48D2-86D9-F2AE56AD3292}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BBF02D5-D5DC-48D2-86D9-F2AE56AD3292}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BBF02D5-D5DC-48D2-86D9-F2AE56AD3292}.Debug|Win32.Build.0 = Debug|Win32
+		{2BBF02D5-D5DC-48D2-86D9-F2AE56AD3292}.Release|Win32.ActiveCfg = Release|Win32
+		{2BBF02D5-D5DC-48D2-86D9-F2AE56AD3292}.Release|Win32.Build.0 = Release|Win32
+		{BF0041C9-F0BB-4088-94F0-2C4636B972F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF0041C9-F0BB-4088-94F0-2C4636B972F2}.Debug|Win32.Build.0 = Debug|Win32
+		{BF0041C9-F0BB-4088-94F0-2C4636B972F2}.Release|Win32.ActiveCfg = Release|Win32
+		{BF0041C9-F0BB-4088-94F0-2C4636B972F2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
