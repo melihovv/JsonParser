@@ -187,3 +187,12 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+JsonParser/lex.yy.cc
+JsonParser/parser.tab.cc
+JsonParser/parser.tab.hh
+JsonParser/location.hh
+JsonParser/position.hh
+JsonParser/stack.hh
+
+JsonParser.VC.opendb
